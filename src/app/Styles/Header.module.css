@@ -1,0 +1,33 @@
+.Headercontainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(148, 148, 148);
+    height: 4rem;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    margin: 1rem;
+    font-size: 1.3rem;
+}
+
+.links,
+.container h1 {
+    color: rgb(48, 232, 232);
+}
+
+.links:hover {
+    color: black;
+}
+
+
+@media (max-width: 500px) {
+    /* Styles for tablets and devices with a width of 600px and above */
+    .Headercontainer {
+        background-color: rgb(65, 30, 120);
+    }
+}
